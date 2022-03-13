@@ -1,0 +1,34 @@
+<html>
+    <title>Today29Feb Docs</title>
+    <link rel="stylesheet" href="/style.css">
+    <center>
+        <h1>Today29Feb API Docs.</h1>
+    </center>
+    <h1>Main info: </h1>
+    <h2>
+        Today29Feb is my joke api that will tell you whether today is February 29 or not, and also determine how many days are left until February 29.</h2><br><br><br> <h1>Usage API:</h1> <h2>Base URL for all endpoints: <a href='http://today29feb.ml'>http://today29feb.ml</a> <table><th>Path</th><th>Description</th><th>Parametrs</th></tr> <tr><td>/api</td><td>Returns information about is today 29 feb. or no and determine how many days are left until for it</td> <td>No</td></tr> </table><br /><h1><br>Example for usage API on in different programming languages:</h1>
+    </h2>
+    <br>
+    <h2>• Python:</h2>
+    <h3>
+        import requests <br />
+        import json <br /><br />
+        response = requests.get('http://today29feb.ml/api/') <br />
+        json_data = json.loads(response.text) <br />
+        print(json_data['today_29_feb'] + ' ' + json_data['when_29_feb']) <br />
+    </h3>
+    <br>
+    <br>
+    <h2>• JavaScript:</h2>
+    <h3>
+        const fetch = require('node-fetch') <br /><br />
+        fetch('http://today29feb.ml/api/') <br />
+        .then(res => res.json()) <br />
+        .then(json => { <br />
+        </h3>
+            <h4>console.log(json.today_29_feb + ' ' + json.when_29_feb)<br /></h4><h3>});</h3>
+    <br>
+    <h2>Result: No. After 718 days</h2>
+    <br>
+    <p>Last change: 13.03.22</p>
+</html>
