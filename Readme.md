@@ -8,3 +8,8 @@
 | Endpoints        | Description                                                                                        | Parametrs |
 | -----------------|:--------------------------------------------------------------------------------------------------:|----:|
 | /api             | Returns information about is today 29 feb. or no and determine how many days are left until for it | No        |
+
+
+
+
+**Docs with examples: http://today29feb.ml/docs**
