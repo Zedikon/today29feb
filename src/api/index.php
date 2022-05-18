@@ -22,30 +22,33 @@ if($today > $todays){
 
 switch(date('m-d')){
     case '03-12':
-        echo '{"today 29 feb?": "No, but today is 12 of march!", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+        echo '{"today_29_feb": "No, but today is just 12 of march!", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         break;
         
-    case '01-1':
-        echo '{"today 29 feb?": "No, but happy new year!", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+    case '01-01':
+        echo '{"today_29_feb": "No, but happy new year!", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         break;
         
-    case '06-1':
-        echo '{"today 29 feb?": "No, but today is the first day of summer!", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+    case '01-06':
+        echo '{"today_29_feb": "No, but today is the first day of summer!", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         break;
         
     case '09-1':
-        echo '{"today 29 feb?": "No, but today is the first day of autumn", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+        echo '{"today_29_feb": "No, but today is the first day of autumn", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         break;
     
     case '04-1':
-        echo '{"today 29 feb?": "Yes! Ha-ha, no, from April 1!", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+        echo '{"today_29_feb": "Yes! Ha-ha, no, from April 1!", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         break;
         
     case '14-02':
-        echo '{"today 29 feb?": "No, but happy St. Valentine"s day!", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+        echo '{"today_29_feb": "No, but happy St. Valentine"s day!", "when_29_feb": "After '.$days_for_leap_year.' days"}';
+
+    case '18-05':
+        echo '{"today_29_feb": "No, but happy birthday, Alexey!", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         
     default:
-        echo '{"today 29 feb?": "No.", "when 29 feb?": "After '.$days_for_leap_year.' days"}';
+        echo '{"today_29_feb": "No.", "when_29_feb": "After '.$days_for_leap_year.' days"}';
         break;
         
 }
